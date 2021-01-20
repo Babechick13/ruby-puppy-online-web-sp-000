@@ -1,6 +1,5 @@
-# Add your code here
 
-def initialize(name)
+  def initialize(name)
     @name = name
     @@all << self
     save
@@ -9,6 +8,7 @@ def initialize(name)
   def self.all
 @@ -20,4 +20,8 @@ def self.print_all
   def self.clear_all
+  end 
     @@all.clear
   end
 

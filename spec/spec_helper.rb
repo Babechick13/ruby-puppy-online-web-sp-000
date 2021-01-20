@@ -1,5 +1,5 @@
 
-require_relative "../lib/dog.rb"
+require_relative `require_relative'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
